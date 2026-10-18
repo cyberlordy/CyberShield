@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Tech Result Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CYBER TECH</h1>
+        <p>Student Result Portal</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#check">Check Result</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Welcome to Cyber Tech Result Portal</h2>
+        <p>Enter your student details to check your result.</p>
+
+        <div class="search-box" id="check">
+            <label>Student Name:</label>
+            <input type="text" id="studentName"
+                   placeholder="Enter student name">
+
+            <label>Student ID:</label>
+            <input type="text" id="studentId"
+                   placeholder="Enter student ID">
+
+            <button onclick="checkResult()">Check Result</button>
+        </div>
+
+        <div id="result">
+            <h2>Student Result</h2>
+            <p>Your result will appear here.</p>
+        </div>
+
+        <div class="about" id="about">
+            <h2>About This Portal</h2>
+            <p>
+                Cyber Tech Result Portal is a simple website
+                designed to help students check their academic
+                results online.
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
